@@ -57,8 +57,8 @@ if (!is_compatible) {
 
 // firebase initialization ---------------------------------------------------------------
 var firebase_config = {
-  apiKey: "xxx",
-  databaseURL: "https://firebase.google.com/"
+    apiKey: "AIzaSyBwDr8n-RNCbBOk1lKIxw7AFgslXGcnQzM",
+    databaseURL: "https://postdocgent.firebaseio.com/"
 };
 
 firebase.initializeApp(firebase_config);
@@ -77,7 +77,7 @@ var preloadimages = [];
 // This section ensure that we don't lose data. Anytime the 
 // client is disconnected, an alert appears onscreen
 var connectedRef = firebase.database().ref(".info/connected");
-var connection = firebase.database().ref("VAAST_AAT2_sensory/" + id + "/")
+var connection = firebase.database().ref("Placebo_AAT_pastfuture/" + id + "/")
 var dialog = undefined;
 var first_connection = true;
 
@@ -345,7 +345,7 @@ var next_position_training = function () {
 // init ---------------------------------------------------------------------------------
 var saving_id = function () {
   database
-    .ref("participant_id_AAT2_Ghent/")
+    .ref("participant_id_placeboAAT_pastfuture/")
     .push()
     .set({
       id: id,
@@ -359,7 +359,7 @@ var saving_id = function () {
 // vaast trial --------------------------------------------------------------------------
 var saving_vaast_trial = function () {
   database
-    .ref("vaast_trial_AAT2_Ghent/").
+    .ref("vaast_trial_placeboAAT_pastfuture/").
     push()
     .set({
       id: id,
@@ -376,7 +376,7 @@ var saving_vaast_trial = function () {
 
 var saving_browser_events = function (completion) {
   database
-    .ref("browser_event_AAT2_Ghent/")
+    .ref("browser_event_placeboAAT_pastfuture/")
     .push()
     .set({
       id: id,
