@@ -588,9 +588,9 @@ var vaast_instructions_4_past = {
     "<p class='instructions'>Now, please consider carefully the following information about the faces you approached and avoided in the video "+
     "game task: <br><br> </p>" +
     "<ul class='instructions'>" +
-    "<li><strong>Faces <b>you approached</b> (i.e., faces following the word 'approach') were always those of the " + group_to_approach + " group</strong></li>" +
+    "<li><strong>Faces <b>you approached</b> in the video game task (i.e., faces following the word 'approach') were always those of the " + group_to_approach + " group</strong></li>" +
     "<br>" +
-    "<li><strong>Faces <b>you avoided</b> (i.e., faces following the word 'avoid') were always those of the " + group_to_avoid + " group</strong></li>" +
+    "<li><strong>Faces <b>you avoided</b> in the video game task (i.e., faces following the word 'avoid') were always those of the " + group_to_avoid + " group</strong></li>" +
     "</ul>" +
     "<p class='instructions'>Please <u>read carefully and make sure that you memorize the instructions above.</u> It is <b>extremely important that you remember this information. </b></p>" +
     "<br>" +
