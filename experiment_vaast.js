@@ -423,7 +423,7 @@ var save_vaast_trial = {
 
   var consent = {
     type:'external-html',
-    url: "https://marinerougier.github.io/Ugent_1/external_page_consent.html",
+    url: "https://marinerougier.github.io/Plac_AAT_JESP/external_page_consent.html",
     cont_btn: "start",
     check_fn: check_consent,
         on_load: function() {
@@ -902,7 +902,7 @@ if (is_compatible) {
     },
     on_finish: function () {
       saving_browser_events(completion = true);
-      window.location.href = "https://marinerougier.github.io/aat2_Ugent/RC.html?id=" + id + "&prolificID=" + 
+      window.location.href = "https://marinerougier.github.io/Plac_AAT_JESP/RC.html?id=" + id + "&prolificID=" + 
       prolificID + "&training_cond=" + training_cond + "&approached_grp=" + approached_grp ;
     }
   });
