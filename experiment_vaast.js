@@ -552,7 +552,7 @@ var vaast_instructions_3_G1B = {
     "<center><p class='instructions'>Before going further, you should know that <b>the faces that were displayed in the previous task "+
     "are in fact divided into two very different groups</b> of faces: Faces of the <b><span style='color:#2a57ea'><b>BLUE</b></span> group</b> "+
     "and faces of the <b><span style='color:#b5a21b'><b>YELLOW</b></span> group</b>. <br></p>" +
-    "<center><p class='instructions'> Here are the faces of the <b><span style='color:#2a57ea'><b>BLUE</b></span> group:</b></p>" +
+    "<center><p class='instructions'> Here are the faces of the <b><span style='color:#b5a21b'><b>YELLOW</b></span> group:</b></p>" +
     "<center><img src = 'stimuli/Face19_J.png'>" +
     "<img src = 'stimuli/Face28_J.png'>" +
     "<img src = 'stimuli/Face55_J.png'>" +
