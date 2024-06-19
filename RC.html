@@ -143,9 +143,9 @@
 
     /* RC instructions */
      var RCinst1 = {
-        type: "html-button-response",
+        type: "html-keyboard-response",
         post_trial_gap: 300,
-        choices: ['continue'],
+        choices: [32],
         stimulus: function () {
             var html = "";
             html += "<h1>Recognition task</h1>";
@@ -154,14 +154,15 @@
             html += "was in fact <b>very different from the other group.</b></br></br>";
             html += "Moreover, <b>within each group</b>, the faces also shared a series of physical characteristics, ";
             html += "making them <b>similar to each other</b>.</p>";
+            html += "<p></br>Press <span class='light-keys'><kbd>space</kbd></span> to continue</p>";
             return html;
         },
     };
 
     var RCinst2 = {
-        type: "html-button-response",
+        type: "html-keyboard-response",
         post_trial_gap: 300,
-        choices: ['continue'],
+        choices: [32],
         stimulus: function () {
             var html = "";
             html += "<h1>Recognition task</h1>";
@@ -170,14 +171,15 @@
             html += "These faces will again be blurred but with a different kind of blur this time. ";
             html += "As a result of this, the 12 faces you will see will look rather similar to each other. However, <b>the faces are all (slightly) different.</b></p>";
             html += "<img width='200' style='padding: 0px' src='" + imgLink(474, 'ori') + "'>";
+            html += "<p></br>Press <span class='light-keys'><kbd>space</kbd></span> to continue</p>";
             return html;
         },
     };
 
     var RCinst3a = {
-        type: "html-button-response",
+        type: "html-keyboard-response",
         post_trial_gap: 300,
-        choices: ['continue'],
+        choices: [32],
         stimulus: function () {
             var html = "";
             html += "<h1>Recognition task, Part 1</h1>";
@@ -185,14 +187,15 @@
             html += "the one that you think is <b>the most similar to the group of faces that had a " + color1 + " background.</b></p>";
             html += "<p class = 'justify'>Use your mouse to select a face at each trial.</p>";
             html += "<img width='200' style='padding: 0px' src='" + imgLink(474, 'ori') + "'>";
+            html += "<p></br>Press <span class='light-keys'><kbd>space</kbd></span> to continue</p>";
             return html;
         },
     };
 
     var RCinst3b = {
-        type: "html-button-response",
+        type: "html-keyboard-response",
         post_trial_gap: 300,
-        choices: ['continue'],
+        choices: [32],
         stimulus: function () {
             var html = "";
             html += "<h1>Recognition task, Part 2</h1>";
@@ -200,14 +203,15 @@
             html += "the one that you think is <b>the most similar to the group of faces that had a " + color2 + " background.</b></p>";
             html += "<p class = 'justify'>Use your mouse to select a face at each trial.</p>";
             html += "<img width='200' style='padding: 0px' src='" + imgLink(474, 'ori') + "'>";
+            html += "<p></br>Press <span class='light-keys'><kbd>space</kbd></span> to continue</p>";
             return html;
         },
     };
 
     var RCinst4 = {
-        type: "html-button-response",
+        type: "html-keyboard-response",
         post_trial_gap: 300,
-        choices: ['start'],
+        choices: [32],
         stimulus: function () {
             var html = "";
             html += "<h1>Recognition task</h1>";
@@ -217,18 +221,20 @@
             html += "On average, for each trial, participants take about <b>3 seconds</b> ";
             html += "to select a face. Please <b>try to maintain a similar pace</b>.</br></br>";
             html += "In this part of the task, you will have to peform a total of 150 trials.</p>";
+            html += "<p></br>Press <span class='light-keys'><kbd>space</kbd></span> to start the task</p>";
             return html;
         },
     };
 
     var RCinst5 = {
-        type: "html-button-response",
+        type: "html-keyboard-response",
         post_trial_gap: 300,
-        choices: ['continue'],
+        choices: [32],
         stimulus: function () {
             var html = "";
             html += "<p class = 'justify'>The first part of this task is completed.</br>";
             html += "You will now begin to the second part.</p>";
+            html += "<p></br>Press <span class='light-keys'><kbd>space</kbd></span> to start</p>";
             return html;
         },
     };

@@ -614,7 +614,7 @@ var vaast_instructions_intermediary_4_future = {
   type: "html-keyboard-response",
   stimulus:
   "<h1 class ='custom-title'>TASK 1: Video Game task</h1>" +
-    "<p class='instructions'>In the previous task, <b>faces of the blue and yellow groups were approached and avoided <u>as many times</u></b>: "+
+    "<p class='instructions'>In the previous task, <b>you approached and avoided <u>as many times</u> the faces of the blue and yellow groups</b>: "+
     "the software randomly presented faces of the blue and yellow group after the word 'approach' and 'avoid'. <br><br>However, <b>in the upcoming "+
     "task, this will change.</b> More information will follow.</p>" +
     "<br>" +
