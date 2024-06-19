@@ -510,6 +510,16 @@ var vaast_instructions_2_bis = {
   choices: [32]
 };
 
+var vaast_instructions_endAA = {
+  type: "html-keyboard-response",
+  stimulus:
+    "<p class='instructions'>This task is over.</p>" +
+    "<br>" +
+    "<p class = 'continue-instructions'>Press <strong>space</strong> to" +
+    " continue.</p>",
+  choices: [32]
+};
+
 var vaast_instructions_3_G1Y = {
   type: "html-keyboard-response",
   stimulus:
@@ -829,6 +839,7 @@ switch(training_cond) {
                   vaast_instructions_2,
                   vaast_instructions_2_bis,
                   vaast_training,
+                  vaast_instructions_endAA,
                   vaast_instructions_3_G1Y,
                   vaast_instructions_4_past,
                   vaast_instructions_end);
@@ -839,6 +850,7 @@ switch(training_cond) {
                   vaast_instructions_2,
                   vaast_instructions_2_bis,
                   vaast_training,
+                  vaast_instructions_endAA,
                   vaast_instructions_3_G1B,
                   vaast_instructions_4_past,
                   vaast_instructions_end);
@@ -849,6 +861,7 @@ switch(training_cond) {
                   vaast_instructions_2,
                   vaast_instructions_2_bis,
                   vaast_training,
+                  vaast_instructions_endAA,
                   vaast_instructions_3_G1Y,
                   vaast_instructions_intermediary_4_future,
                   vaast_instructions_4_future,
@@ -860,6 +873,7 @@ switch(training_cond) {
                   vaast_instructions_2,
                   vaast_instructions_2_bis,
                   vaast_training,
+                  vaast_instructions_endAA,
                   vaast_instructions_3_G1B,
                   vaast_instructions_intermediary_4_future,
                   vaast_instructions_4_future,
