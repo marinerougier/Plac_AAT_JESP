@@ -345,7 +345,7 @@
    var appGrpOptions_past = ['I approached ' + genColor("#2a57ea", "blue") + '-background faces and avoided ' + genColor("#b5a21b", "yellow") + '-background faces', 'I approached ' + genColor("#b5a21b", "yellow") + '-background faces and avoided ' + genColor("#2a57ea", "blue") + '-background faces', 'I do not remember'];
     var reportedAppGrp_past = {
         type: 'survey-multi-choice',
-        questions: [{ prompt: "Please report the instruction that we provided about which group you approached and avoided in the Video Game task (TASK 1). If you do not remember, select the 'I do not know' option.", options: appGrpOptions_past, required: true }],
+        questions: [{ prompt: "Please report the instruction that we provided about which group you approached and which group you avoided in the Video Game task (TASK 1). If you do not remember, select the 'I do not know' option.", options: appGrpOptions_past, required: true }],
         button_label: "continue",
         on_finish: function (data) {
             jsPsych.data.addProperties({
@@ -359,7 +359,7 @@
    var appGrpOption_future = ['I will approach ' + genColor("#2a57ea", "blue") + '-background faces and will avoid ' + genColor("#b5a21b", "yellow") + '-background faces', 'I will approach ' + genColor("#b5a21b", "yellow") + '-background faces and will avoid ' + genColor("#2a57ea", "blue") + '-background faces', 'I do not remember'];
     var reportedAppGrp_future = {
         type: 'survey-multi-choice',
-        questions: [{ prompt: "Please report the instruction that we provided about which group you will approach and will avoid in the upcoming task. If you do not remember, select the 'I do not know' option.", options: appGrpOption_future, required: true }],
+        questions: [{ prompt: "Please report the instruction that we provided about which group you will approach and which group you will avoid in the upcoming task. If you do not remember, select the 'I do not know' option.", options: appGrpOption_future, required: true }],
         button_label: "continue",
         on_finish: function (data) {
             jsPsych.data.addProperties({
