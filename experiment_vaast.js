@@ -513,7 +513,7 @@ var vaast_instructions_2_bis = {
 var vaast_instructions_endAA = {
   type: "html-keyboard-response",
   stimulus:
-    "<p class='instructions'>This task is over.</p>" +
+    "<p class='instructions'><center>This task is over.</center></p>" +
     "<br>" +
     "<p class = 'continue-instructions'>Press <strong>space</strong> to" +
     " continue.</p>",
@@ -525,8 +525,8 @@ var vaast_instructions_3_G1Y = {
   stimulus:
     "<h1 class ='custom-title'>TASK 1: Video Game task</h1>" +
     "<center><p class='instructions'>Before going further, you should know that <b>the faces that were displayed in the previous task "+
-    "are in fact divided into two very different groups</b> of faces: Faces of the <b><span style='color:#2a57ea'><b>BLUE</b></span> group</b> "+
-    "and faces of the <b><span style='color:#b5a21b'><b>YELLOW</b></span> group</b>. <br></p>" +
+    "are in fact divided into two very different groups</b> of faces: Faces of the <b><span style='color:#b5a21b'><b>YELLOW</b></span> group</b> "+
+    "and faces of the <b><span style='color:#2a57ea'><b>BLUE</b></span> group</b>. <br></p>" +
     "<center><p class='instructions'> Here are the faces of the <b><span style='color:#2a57ea'><b>BLUE</b></span> group:</b></p>" +
     "<img src = 'stimuli/Face19_B.png'>" +
     "<img src = 'stimuli/Face28_B.png'>" +
@@ -560,8 +560,8 @@ var vaast_instructions_3_G1B = {
   stimulus:
     "<h1 class ='custom-title'>TASK 1: Video Game task</h1>" +
     "<center><p class='instructions'>Before going further, you should know that <b>the faces that were displayed in the previous task "+
-    "are in fact divided into two very different groups</b> of faces: Faces of the <b><span style='color:#2a57ea'><b>BLUE</b></span> group</b> "+
-    "and faces of the <b><span style='color:#b5a21b'><b>YELLOW</b></span> group</b>. <br></p>" +
+    "are in fact divided into two very different groups</b> of faces: Faces of the <b><span style='color:#b5a21b'><b>YELLOW</b></span> group</b> "+
+    "and faces of the <b><span style='color:#2a57ea'><b>BLUE</b></span> group</b>. <br></p>" +
     "<center><p class='instructions'> Here are the faces of the <b><span style='color:#b5a21b'><b>YELLOW</b></span> group:</b></p>" +
     "<center><img src = 'stimuli/Face19_J.png'>" +
     "<img src = 'stimuli/Face28_J.png'>" +
