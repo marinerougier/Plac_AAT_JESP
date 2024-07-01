@@ -58,7 +58,7 @@ if (!is_compatible) {
 // firebase initialization ---------------------------------------------------------------
 var firebase_config = {
     apiKey: "AIzaSyBwDr8n-RNCbBOk1lKIxw7AFgslXGcnQzM",
-    databaseURL: "https://newpostdocgent-default-rtdb.europe-west1.firebasedatabase.app/"
+    databaseURL: "https://newpostdocgent.firebaseio.com/"
 };
 
 firebase.initializeApp(firebase_config);
