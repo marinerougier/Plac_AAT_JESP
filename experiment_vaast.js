@@ -58,7 +58,7 @@ if (!is_compatible) {
 // firebase initialization ---------------------------------------------------------------
 var firebase_config = {
     apiKey: "AIzaSyBwDr8n-RNCbBOk1lKIxw7AFgslXGcnQzM",
-    databaseURL: "https://newpostdocgent.firebaseio.com/"
+    databaseURL: "https://marineexpe.firebaseio.com/"
 };
 
 firebase.initializeApp(firebase_config);
